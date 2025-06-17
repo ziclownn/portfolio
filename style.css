@@ -215,7 +215,7 @@ span{
     animation: cursor 0.6s infinite;
 }
 
-@media(min-width:1001px){
+@media(min-width:701px){
     @keyframes cursor{
         to{
             border-left: 3px solid #c08ca0;
@@ -238,14 +238,14 @@ span{
     }
 }
 
-@media(max-width:1000px){
+@media(max-width:700px){
     .home{
         gap: 4rem;
         font-size: 150%;
     }
 }
 
-@media(max-width:995px){
+@media(max-width:695px){
     .home{
         flex-direction: column;
         margin: 5rem 4rem;
