@@ -228,16 +228,16 @@ span{
 
     @keyframes words{
         0%, 25%{
-            content: "Etudiant";
+            content: "etudiant";
         }
         26%,50%{
-            content: "En Infrastructure et Réseau";
+            content: "en Infrastructure et Réseau";
         }
         51%, 75%{
-            content: "Etudiant";
+            content: "etudiant";
         }
         76%,100%{
-            content: "En Infrastructure et Réseau";
+            content: "en Infrastructure et Réseau";
         }
     }
 }
