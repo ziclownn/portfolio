@@ -203,7 +203,7 @@ span{
 }
 
 .typing-text span::before{
-    content: "Etudiant en Infrastructure et Réseau";
+    content: "etudiant en Infrastructure et Réseau";
     color: #c08ca0;
     animation: words 20s infinite;
 }
