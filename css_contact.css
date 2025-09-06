@@ -64,7 +64,7 @@ body {
   }
   
   form div > input::placeholder, form div > textarea::placeholder {
-    color: black;
+    color: white;
   }
   
   form div > select:invalid {
