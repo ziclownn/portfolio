@@ -328,3 +328,7 @@ img:hover{
     align-items: center;
     gap: 8rem;
 }
+
+.pdf {
+    height: 100%;
+}
