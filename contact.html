@@ -18,7 +18,7 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+<!-- <body>
   <p id="status"></p>
     <div class="contactez-nous">
         <h1>Contactez-moi</h1>
@@ -42,6 +42,23 @@
         </form>
       </div>
 
+</body> -->
+
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+              <form id="contact-form">
+                <h2>Contactez-moi!</h2>
+                <input type="text" id="nom" name="nom" class="field" placeholder="Votre prenom et nom" required>
+                <input type="email" id="email" name="email" class="field" placeholder="Votre email" required>
+                <textarea class="field area" id="message" name="message" placeholder="Inscrire votre message ici !" required></textarea>
+                <button type="submit" onclick="sendMail()" class="btn">Envoyez</button>
+              </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
